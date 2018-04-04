@@ -1,10 +1,8 @@
 package com.youyisky.service;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
 
 public class CollectionService {
 
@@ -31,7 +29,7 @@ public class CollectionService {
 				98 };
 //		List<int[]> as = Arrays.asList(a);
 		Arrays.parallelSort(a);
-		
+	
 		for(int as:a) {
 			System.out.println(as);
 		}
